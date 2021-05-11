@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js.js"></script>
+</head>
+<body>
+    <script src="js.js"></script>
+    <table>
+        <tr>
+            <th>nhập số tiền</th>
+            <th>tiền gốc</th>
+            <th>tiển muốn chuyển</th>
+
+        </tr>
+        <tr>
+            <td><input onchange="convert()" id="input" type="number"></td>
+
+            <td><select name="" id="fom">
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
+            </select></td>
+
+            <td><select name="" id="to">
+                <option value="1">USD</option>
+                <option value="23000">VND</option>
+            </select></td>
+            <td><button onclick="convert()">click</button></td>
+        </tr>
+    </table>
+    <h3>kết quả: <p id="result"></p></h3>
+
+
+</body>
+</html>
